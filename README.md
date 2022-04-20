@@ -14,3 +14,6 @@ Ls-loading-screen\css/main.css
 
 To modify names and rights
 Ls-loading-screen\index.html
+
+Discord
+https://discord.gg/vQq8WeFd
