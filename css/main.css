@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+	font-family: 'Roboto', sans-serif;
+	cursor: auto !important;
+}
+
+@-webkit-keyframes slides {
+    from {
+        background-image: url("https://cdn.discordapp.com/attachments/955092414815694978/955583767827853323/unknown.png");
+    };
+}
+
+::-webkit-scrollbar {
+	width: 2px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: rgba(255, 0, 0, 0.658);
+}
+
+::-webkit-scrollbar-track {
+	background: rgba(0, 0, 0, 0.3);
+}
+
+small {
+	font-size: 12px;
+}
+
+pre {
+	color: #aaa;
+	overflow: hidden;
+	text-overflow: clip;
+	margin-bottom: 0px !important;
+	margin-top: 0px !important;
+}
+
+.top-bar {
+	height: 7px;
+    background: rgba(255, 1, 1, 0.774);
+    width: 0%;
+}
+
+.server-icon {
+	border-radius: 50%;
+	width: 100px;
+	border: 2px solid rgb(0, 0, 0);
+}
+
+.text-success {
+	color: rgba(255, 1, 1, 0.774) !important;
+}
+.text-info {
+	color: rgba(255, 1, 1, 0.774) !important;
+}
+.text-muted {
+	color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.badge {
+	font-weight: 400;
+	opacity: 85%;
+	padding: 5px;
+	border-radius: 0px;
+	background: rgba(0, 0, 0, 0.8) !important;
+}
+.badge-primary {
+	border-bottom: 2px solid #ff0000d2;
+}
+.badge-info {
+	border-bottom: 2px solid rgb(255, 1, 1, 0.774);
+}
+.badge-danger {
+	border-bottom: 2px solid #ff6969;
+}
+.badge-success {
+	border-bottom: 2px solid #ff0000de;
+}
+
+.badge-cm {
+	font-size: 10px;
+}
+
+.scrollable-container {
+	max-height: 300px;
+	overflow: auto;
+	padding: 5px;
+}
+
+.staff-card {
+	font-size: 15px;
+    background: rgba(0, 0, 0, 0.3);
+    margin-bottom: 3px;
+    text-align: left!important;
+}
+.staff-card > img {
+	border-radius: 50%;
+	max-width: 30px;
+	margin-right: 10px;
+	margin: 7px 6px 6px 10px;
+}
+.staff-card.more {
+	font-family: sans-serif;
+	font-size: 13px;
+	background: transparent;
+	border: none;
+	text-align: center !important;
+}
+.staff-card-primary {
+    border-left: 3px solid rgb(255, 1, 1, 0.774);
+}
+.staff-card-success {
+    border-left: 3px solid #ff0000c2;
+}
+.staff-card-info {
+	border-left: 3px solid #ff0000c2;
+}
+.staff-card-danger {
+	border-left: 3px solid #ff0000c2;
+}
+.staff-card-info {
+	border-left: 3px solid #ff0000c2;
+}
+
+.rule {
+	font-size: 12px;
+	padding-bottom: 13px
+} .info {
+	font-size: 13px;
+}
+
+.bg {
+	width: 100%;
+	background: #171717;
+	overflow-x: hidden;
+	overflow-y: hidden;
+
+	background-position: center center;
+	background-size: cover;
+    animation: slides 120s linear infinite;
+    -webkit-animation: slides 120s linear infinite;
+    -moz-animation: slides 120s linear infinite;
+    -o-animation: slides 120s linear infinite;
+    -ms-animation: slides 120s linear infinite;
+
+	/*border-top: 7px solid rgb(0, 255, 234);*/
+}
+
+.bg-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: -10;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+.content {
+	z-index: 99999;
+}
+
+.box {
+	background-color: #16161d46;
+	border: 3px solid rgba(255, 255, 255, 0.05);
+	border-top: 4px solid rgb(255, 1, 1, 0.774);
+	overflow-y: auto;
+
+	padding: 15px;
+	margin-top: 20px;
+
+	-webkit-box-shadow: 0px 0px 89px 0px rgba(0, 238, 255, 0.05);
+	-moz-box-shadow: 0px 0px 89px 0px rgba(0, 238, 255, 0.05);
+	box-shadow: 0px 0px 89px 0px rgba(0, 238, 255, 0.05);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+	/*border-radius: 10px;*/
+}
+.box.pbar {
+	background-color: #16161d;
+	border-top: 3px solid rgba(255, 255, 255, 0.05);
+}
+
+.box > h3 {
+	font-weight: 300;
+}
+
+.header {
+	color: #FFFFFF;
+}
+.subtext {
+	font-weight: bold;
+}
+
+.progress {
+	background: #272727
+}
+
+.hr_one {
+	border: 0;
+	height: 2px;
+	background: #171717;
+	background-image: linear-gradient(to right, #171717, rgba(255, 0, 0, 0.63), #171717);
+}
+
+.hr_two {
+	border: 0;
+	height: 1px;
+	background: #171717;
+	background-image: linear-gradient(to right, #171717, rgba(255, 0, 0, 0.63), #171717);
+	width: 50%;
+	margin-top: 0.3rem;
+	margin-bottom: 0.3rem;
+}
+
+.row {
+	margin-top: 100px;
+}
+.row:nth-last-child(1) {
+	margin-top: 0px;
+}
+
+@media only screen and (max-height: 929px) {
+    .alert-footer {
+        display: none;
+    }
+}
+
+.alert.alert-footer {
+	color: #9f9f9f;
+	position: absolute;
+	bottom: 0;
+	width: 100vw;
+	background: #16161da8;
+	border: none;
+	border-bottom: 2px solid rgb(255, 1, 1, 0.774);
+	border-top: 2px solid rgb(255, 1, 1, 0.774);
+	border-radius: 0;
+}
